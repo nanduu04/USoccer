@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
+import React, {Component}  from 'react';
 import './App.css';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
-
 
 const style = {
   width: '100%',
   height: '100%'
 }
+
 class Maps extends Component {
   render (){
     return (
@@ -29,17 +29,13 @@ class Maps extends Component {
                 <h1>{this.state.selectedPlace.name}</h1>
               </div> */}
           </InfoWindow>
-        </Map>
-        
-       
+        </Map>   
       </div>
     );
 
   }
  
 }
-
-
 // Add your own API Key
 export default GoogleApiWrapper({
   apiKey: ("AIzaSyBhoIICyXP7RGihA84YoU29VAiG5ZvQssY")
