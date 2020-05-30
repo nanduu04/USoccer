@@ -11,7 +11,7 @@ export class Home extends Component {
                     lat: 43.6532,
                     lng: -79.3832
           }}
-          zoom={9}>          
+          zoom={15}>          
                 <Marker onClick={this.onMarkerClick}
                         name={'Current location'} />
                 <InfoWindow onClose={this.onInfoWindowClose}>

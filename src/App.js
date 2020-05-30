@@ -4,7 +4,7 @@ import React from 'react';
 import './CSS/App.css';
 import Home from './Components/Home'
 import Contact from './Components/Contact'
-import Projects from './Components/Projects'
+import Events from './Components/Events'
 import About from './Components/About'
 import {Route} from 'react-router-dom';
 import NavBar from './Components/Navbar'
@@ -14,7 +14,7 @@ function App() {
     <NavBar />
     <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
-    <Route exact path="/projects" component={Projects} />
+    <Route exact path="/events" component={Events} />
     <Route exact path="/contact" component={Contact} />
 
   </div>;

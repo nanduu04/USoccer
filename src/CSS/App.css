@@ -40,3 +40,17 @@
 .color-nav {
   background-color: blanchedalmond;
 }
+
+.projects-grid {
+  display: flex;
+}
+
+
+.events{
+  padding: 3rem;
+  border: 5px solid black;
+}
+
+.events-container{
+  padding: 3rem;
+}
