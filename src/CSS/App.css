@@ -54,3 +54,14 @@
 .events-container{
   padding: 3rem;
 }
+
+.Logo {
+  background-image: url(./logo.png);
+}
+
+.event-map {
+      max-height: 25vw;
+      width: 100%;
+      border: 2px solid black;
+      opacity: 0.8;
+}
