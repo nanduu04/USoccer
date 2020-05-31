@@ -2,11 +2,15 @@ import React from 'react'
 import {Card, Button, Row, Col, Image, Container} from 'react-bootstrap'
 import logo from './logo.png'; 
 
+
+
 function Event(){
     return (
     <div>
-           <img className='event-map' src={logo} alt="Logo" />
-           <h1> Positions Avilable:</h1>
+     
+        <div className='event-map' id='Logo'>
+        </div>
+        <h1> Positions Avilable:</h1>
 
         <Row className="events-container">
             <Col>

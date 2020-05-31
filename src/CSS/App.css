@@ -55,13 +55,21 @@
   padding: 3rem;
 }
 
-.Logo {
+
+#Logo {
   background-image: url(./logo.png);
 }
 
 .event-map {
-      max-height: 25vw;
+      font-size: 40px;
+      min-height: 25vw;
       width: 100%;
       border: 2px solid black;
       opacity: 0.8;
+}
+
+#bottom-left-text{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
