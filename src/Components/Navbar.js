@@ -7,9 +7,9 @@ function NavBar(){
         <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="/">USoccer</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="/about">About</Nav.Link>
+          {/* <Nav.Link href="/find">Find</Nav.Link> */}
           <Nav.Link href="/events">Events</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          <Nav.Link href="/profile">Profile</Nav.Link>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
