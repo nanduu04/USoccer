@@ -10,17 +10,16 @@ import Event from './Components/Event'
 import NotFoundPage from './Components/NotFoundPage'
 import {Route, Switch} from 'react-router-dom';
 import NavBar from './Components/Navbar'
-import Find from './Components/Find';
+// import Find from './Components/Find';
 
 function App() {
   return  <div className="App">
     <NavBar />
     <Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/about" component={About} />
     <Route exact path="/events/" component={Events} />
-    <Route exact path="/contact" component={Contact} />
-    <Route exact path="/event/" component={Event} />
+    <Route exact path="/profile/" component={Profile} />
+    <Route exact path="/event" component={Event} />
     <Route component={NotFoundPage} />
     </Switch>
 
