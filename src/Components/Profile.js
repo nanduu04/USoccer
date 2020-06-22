@@ -1,11 +1,16 @@
 import React from 'react'
+import 'antd/dist/antd.css';
+import Dashboard from './chat/Dashboard'
+import Store from './chat/Store';
 
-function Profile(){
+function Profile() {
     return (
-        <div>
-            <h1> Profile of person</h1>
-        </div>
-    )
-}
-
-export default Profile;
+      <div className="App">
+        <Store>
+          <Dashboard />
+        </Store>
+      </div>
+    );
+  }
+  
+  export default Profile;
