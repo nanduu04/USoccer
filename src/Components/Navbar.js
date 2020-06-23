@@ -9,7 +9,8 @@ function NavBar(){
         <Nav className="mr-auto">
           {/* <Nav.Link href="/find">Find</Nav.Link> */}
           <Nav.Link href="/events">Events</Nav.Link>
-          <Nav.Link href="/profile">Chat</Nav.Link>
+          <Nav.Link href="/communication">Chat</Nav.Link>
+          <Nav.Link href="/profile">Profile</Nav.Link>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
