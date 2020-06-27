@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Map from './Map/Map'
+import Map from './Map/NewMap'
 
-function Home(){
-  return (
-      <div>
-<Map />      </div>
-  )
+import NewMap from './Map/NewMap';
+export default function Home(){
+ return(
+  <NewMap />
+ );
 }
+ 
 
-export default Home;
