@@ -11,6 +11,6 @@ From inside the project directory root, you can run: cd Usoccer
 This will run the app in development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-##to run google maps
+## To run google maps
 - Create a .env.local file
 - REACT_APP_GOOGLE_MAPS_API_KEY="YOUR_API_KEY"
