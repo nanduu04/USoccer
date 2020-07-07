@@ -28,15 +28,15 @@ class Create extends React.Component {
         firstName: "",
         lastName: "",
         username: "",
-        email: "",
-        password: ""
+        eventType: "",
+        time: ""
       });
       this.props.onChange({
         firstName: "",
         lastName: "",
         username: "",
-        email: "",
-        password: ""
+        eventType: "",
+        time: ""
       });
     };
   
@@ -67,15 +67,14 @@ class Create extends React.Component {
           <input
             name="email"
             placeholder="Email"
-            value={this.state.email}
+            value={this.state.eventType}
             onChange={e => this.change(e)}
           />
           <br />
           <input
-            name="password"
-            type="password"
-            placeholder="Password"
-            value={this.state.password}
+            name="Time"
+            type="time"
+            value={this.state.time}
             onChange={e => this.change(e)}
           />
           <br />
