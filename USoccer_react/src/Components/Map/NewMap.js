@@ -7,10 +7,10 @@ import {
   Marker,
   InfoWindow
 } from "react-google-maps";
-import usePlacesAutocomplete, {
-    getGeocode,
-    getLatLng,
-  } from "use-places-autocomplete";
+// import usePlacesAutocomplete, {
+//     getGeocode,
+//     getLatLng,
+//   } from "use-places-autocomplete";
 import * as parkData from "../../Data/skateboard-parks.json";
 import mapStyles from "./mapStyles";
 import "@reach/combobox/styles.css";
@@ -26,12 +26,12 @@ const center = { lat: 45.4211, lng: -75.6903 };
 
 export default function NewMap() {
 
-    const mapRef = React.useRef();
+    // const mapRef = React.useRef();
     
-    const panTo = React.useCallback(({ lat, lng }) => {
-        mapRef.current.panTo({ lat, lng });
-        mapRef.current.setZoom(14);
-      }, []);
+    // const panTo = React.useCallback(({ lat, lng }) => {
+    //     mapRef.current.panTo({ lat, lng });
+    //     mapRef.current.setZoom(14);
+    //   }, []);
 
   return (
     <div style={{ width: "100vw", height: "94vh" }}>
