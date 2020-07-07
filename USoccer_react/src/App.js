@@ -13,6 +13,7 @@ import NavBar from './Components/Navbar'
 import Chat from './Components/Chat/Chat';
 import Join from './Components/Join/Join';
 import Communication from './Components/Communication'
+import CreateEvent from './Components/Create'
 
 function App() {
   return  <div className="App">
@@ -20,6 +21,7 @@ function App() {
     <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/events/" component={Events} />
+    <Route path="/Create" component={CreateEvent} />
     <Route exact path="/profile/" component={Profile} />
     <Route exact path="/event" component={Event} />
     <Route path="/communication" component={Communication} />
