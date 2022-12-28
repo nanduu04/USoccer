@@ -1,15 +1,12 @@
 ## Overview
 
-An Application that allows users to search activities near their location and allow them to join.
+An Application that allows users to search activities near their location and allow them to join. specs and scopes tbd. 
+
+Originally made in 2019, remaking from scratch again.
 
 ## Quickstart
 
-From inside the project directory root, you can run: cd Usoccer
-
-### `npm start`
-
-This will run the app in development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+tbd
 
 ## To run google maps
 - Create a .env.local file
