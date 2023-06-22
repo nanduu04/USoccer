@@ -10,11 +10,8 @@
 
 # Python/Django
 
-- All functions that are need to be used multiple times in [view.py](http://view.py) should be factored out into view_helpers.py
+- 
 
-# Dart/Flutter
+# React
 
-- All common widgets should be put under lib/src/widgets/
-- There should be one API class (per API type) that is a static class and handles all API calls. For example BookTradesAPI will be one class, and if we use Google APIs, GoogleAPI will be another class. These classes should go under lib/src/apis/
-- The same font style should be used across the app
-- All common properties, fonts, colours, etc. should be placed in lib/src/constants.dart
+- 
