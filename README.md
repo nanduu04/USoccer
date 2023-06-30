@@ -2,7 +2,7 @@
 
 An Application that allows users to search activities near their location and allow them to join. specs and scopes tbd. 
 
-Originally made in 2019, remaking from scratch again.
+Originally made in 2019, remaking from scratch again in 2023.
 
 ## Quickstart
 
